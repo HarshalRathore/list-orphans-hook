@@ -1,0 +1,15 @@
+pkgbase = list-orphans-hook
+	pkgdesc = A pacman hook that lists orphaned packages in prettier format.
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://aur.archlinux.org/packages/list-orphans-hook
+	arch = any
+	license = MIT
+	depends = bash
+	depends = pacman
+	source = list-orphans.sh
+	source = list-orphans.hook
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = list-orphans-hook
