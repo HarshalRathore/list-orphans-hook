@@ -6,6 +6,6 @@ Type = Package
 Target = *
 
 [Action]
-Description = List orphaned packages
+Description = Checking for orphaned packages...
 When = PostTransaction
-Exec = /usr/local/bin/list-orphans.sh
+Exec = /usr/bin/list-orphans
