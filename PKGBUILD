@@ -1,7 +1,7 @@
 # Maintainer: Harshal Rathore <harshalrathore2014@gmail.com>
 pkgname=list-orphans-hook
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="A pacman hook that lists orphaned packages in prettier format."
 arch=('any')
 url="https://aur.archlinux.org/packages/list-orphans-hook"
