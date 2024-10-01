@@ -1,12 +1,12 @@
 # Maintainer: Harshal Rathore <harshalrathore2014@gmail.com>
 pkgname=list-orphans-hook
 pkgver=1.0
-pkgrel=3
+pkgrel=4
 pkgdesc="A pacman hook that lists orphaned packages in prettier format."
 arch=('any')
 url="https://aur.archlinux.org/packages/list-orphans-hook"
 license=('Creative Commons Zero v1.0 Universal')
-depends=('bash' 'pacman')
+depends=('bash' 'pacman' 'bc')
 source=(
     "list-orphans.sh"
     "list-orphans.hook"
